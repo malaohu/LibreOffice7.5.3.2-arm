@@ -1,0 +1,49 @@
+#
+# This file is part of the LibreOffice project.
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# This file incorporates work covered by the following license notice:
+#
+#   Licensed to the Apache Software Foundation (ASF) under one or more
+#   contributor license agreements. See the NOTICE file distributed
+#   with this work for additional information regarding copyright
+#   ownership. The ASF licenses this file to you under the Apache
+#   License, Version 2.0 (the "License"); you may not use this file
+#   except in compliance with the License. You may obtain a copy of
+#   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+#
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Icon=libreofficedev7.1-base
+Type=Application
+Categories=Office;Database;X-Red-Hat-Base;X-MandrivaLinux-MoreApplications-Databases;
+Exec=libreofficedev7.1 --base %U
+MimeType=application/vnd.oasis.opendocument.database;application/vnd.sun.xml.base;
+Name=LibreOfficeDev 7.1 Base
+GenericName=Database Development
+GenericName[en]=Database Development
+GenericName[zh_CN]=数据库开发
+GenericName[zh_TW]=資料庫開發
+Comment=Manage databases, create queries and reports to track and manage your information by using Base.
+Comment[en]=Manage databases, create queries and reports to track and manage your information by using Base.
+Comment[zh_CN]=使用 Base 管理数据库并创建查询和报表，以对信息进行跟踪和管理。
+Comment[zh_TW]=使用 Base 來管理資料庫、建立查詢與報告，以追蹤及管理您的資訊。
+StartupNotify=true
+X-GIO-NoFuse=true
+Keywords=Data;SQL;
+InitialPreference=5
+StartupWMClass=libreoffice-base
+X-KDE-Protocols=file,http,ftp,webdav,webdavs
+
+Actions=NewDocument;
+[Desktop Action NewDocument]
+Name=New Database
+Name[en]=New Database
+Name[zh_CN]=新建数据库
+Name[zh_TW]=新增資料庫
+Icon=libreofficedev7.1-document-new
+Exec=libreofficedev7.1 --base

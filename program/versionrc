@@ -1,0 +1,10 @@
+[Version]
+AllLanguages=en-US
+buildid=f6db54d2dd7de5b227cb766575f4b0cb7bbf5184
+ExtensionUpdateURL=http://updateexte.libreoffice.org/ExtensionUpdateService/check.Update
+ReferenceOOoMajorMinor=4.1
+UpdateChannel=
+UpdateID=LibreOfficeDev_7_en-US
+UpdateURL=
+UpdateUserAgent=<PRODUCT> (${buildid}; ${_OS}; ${_ARCH}; <OPTIONAL_OS_HW_DATA>)
+Vendor=numax

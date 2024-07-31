@@ -1,0 +1,68 @@
+#
+# This file is part of the LibreOffice project.
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# This file incorporates work covered by the following license notice:
+#
+#   Licensed to the Apache Software Foundation (ASF) under one or more
+#   contributor license agreements. See the NOTICE file distributed
+#   with this work for additional information regarding copyright
+#   ownership. The ASF licenses this file to you under the Apache
+#   License, Version 2.0 (the "License"); you may not use this file
+#   except in compliance with the License. You may obtain a copy of
+#   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+#
+[Desktop Entry]
+Version=1.0
+Terminal=false
+NoDisplay=false
+Icon=libreofficedev7.1-startcenter
+Type=Application
+Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other;
+Exec=libreofficedev7.1 %U
+MimeType=application/vnd.openofficeorg.extension;x-scheme-handler/vnd.libreoffice.cmis;
+Name=LibreOfficeDev 7.1
+GenericName=Office
+GenericName[en]=Office
+GenericName[zh_CN]=办公
+GenericName[zh_TW]=辦公
+Comment=The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.
+Comment[en]=The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.
+Comment[zh_CN]=办公生产套件与开放、标准化的 ODF 文档格式兼容。由 The Document Foundation 提供支持。
+Comment[zh_TW]=本辦公生產力套裝軟體和開放且標準化的 ODF 文件格式相容，由文件基金會提供支援。
+StartupNotify=true
+X-GIO-NoFuse=true
+StartupWMClass=libreoffice-startcenter
+X-KDE-Protocols=file,http,ftp,webdav,webdavs
+
+##Define Actions
+Actions=Writer;Calc;Impress;Draw;Base;Math;
+
+[Desktop Action Writer]
+Name=Writer
+Exec=libreofficedev7.1 --writer
+
+[Desktop Action Calc]
+Name=Calc
+Exec=libreofficedev7.1 --calc
+
+[Desktop Action Impress]
+Name=Impress
+Exec=libreofficedev7.1 --impress
+
+[Desktop Action Draw]
+Name=Draw
+Exec=libreofficedev7.1 --draw
+
+[Desktop Action Base]
+Name=Base
+Exec=libreofficedev7.1 --base
+
+[Desktop Action Math]
+Name=Math
+Exec=libreofficedev7.1 --math
+
+##End of actions menu

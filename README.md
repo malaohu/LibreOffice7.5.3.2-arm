@@ -18,3 +18,6 @@ ln -s /opt/LibreOffice7.5.3.2-arm/program/soffice /usr/bin/soffice
 soffice version
 ```
 更多使用方法，参考官方说明
+
+
+感谢：https://juejin.cn/post/7264920384901808184

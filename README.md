@@ -8,6 +8,7 @@
 ## 部署
 ```
 cd /opt
+git clone https://github.com/malaohu/LibreOffice7.5.3.2-arm.git
 ln -s /opt/LibreOffice7.5.3.2-arm/program/soffice /usr/bin/soffice
 ```
 
